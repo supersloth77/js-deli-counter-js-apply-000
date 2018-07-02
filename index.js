@@ -28,10 +28,5 @@ function currentLine(katzDeliLine) {
       i++;
     }
     return (`The line is currently:${newLine}`);
-  if (katzDeliLine.length === 0) {
-    return "There is nobody waiting to be served!";
-  }
-  else {
-    katzDeliLine.shift();
   }
 }
